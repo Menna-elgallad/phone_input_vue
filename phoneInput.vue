@@ -1,5 +1,6 @@
 <template lang="pug">
 vue-tel-input(  @input="shownum" @validate="validatecode"  :validCharactersOnly="true" :class="{ 'p-invali-input': !validphone }" defaultCountry="EG" )
+//- small( class="p-error" id="text-error") {{ errorPhone }}
   
 </template>
 
